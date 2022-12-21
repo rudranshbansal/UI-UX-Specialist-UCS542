@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Rudransh 3</title>
+    <style>
+        .hname
+        {
+            color:white;
+        }
+        body {
+            background-image: url(mainback.png);
+            background-size: cover;
+        }
+        ul{
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+        /* table,tr,td,th 
+        {
+            border-collapse: collapse;
+        } */
+        tr{
+            width: 100%;
+            height: 25px;
+        }
+        th
+        {
+            background-color: green;
+            color: white;
+        }
+        td
+        {
+            background-color:lightgreen;
+            color:black;
+        }
+        a:link 
+        {
+            color:rgb(0,0,255);
+        }
+        a:visited
+        {
+            color:#ff0000;
+        }
+        a:hover
+        {
+            color:hsl(120,100%,50%);
+        }
+        a:active
+        {
+            color:yellow;
+        }
+        #home
+        {
+            background-image: url(backimg.png);
+            background-size: cover;
+            overflow: auto;
+            background-repeat: no-repeat;
+            width: 100%;
+            height: 250px;
+        }
+        li
+        {
+            width: 23%;
+            height: 25px;
+            background-color: rgba(0,255,0,0.5);
+            text-align: center;
+            color: black;
+            display: inline-block;
+            font-weight: bold;
+        }
+        #about
+        {
+            background-image: url(backabout.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        #contact
+        {
+            background-image: url(backcon.jpg);
+        }
+        h1{
+            font-family: 'Luckiest Guy',cursive;color:orange;
+            text-align: center;
+            text-decoration: underline;
+        }
+        table
+        {
+            text-align: center;
+            margin-right: auto;
+            margin-left: auto;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1 >Welcome to my webpage!</h1>
+    <ul>
+        <li><a href="#home1">Home</a></li>
+        <li><a href="#blog1">Blog</a></li>
+        <li><a href="#contact1">Contact</a></li>
+        <li><a href="#about1">About</a></li>
+    </ul>
+    <div title="home" id="home" style="text-align: center;">
+        <a name="home1"><a href="102197023_Ui_Lab1a.html">Click Here</a><span style="color:white"> for the running track</span></a>
+        <img src="backimg.png" alt="background" height="250px" width="100%">
+    </div>
+    <div title="blog">
+        <a name="blog1"><h2 class="hname">Blog</h2></a>
+        <marquee direction="left" style="color: blue; font-size:20px">These are</marquee>
+        <marquee direction="right" style="color: red; font-size:20px">HTML generic attributes</marquee>
+        <h3>HTML generic attributes</h3>
+        <table title="generic attributes">
+            <tr><th>Attribute</th><th>Options</th><th>Functions</th></tr>
+            <tr><td>align</td><td>right, left, center</td><td>Horizontally aligns tags</td></tr>
+            <tr><td>bgcolor</td><td>numeric, hexidecimal, RGB values</td><td>Places a background color behind an element</td></tr>
+            <tr><td>background</td><td>URL</td><td>Places a background image behind an element</td></tr>
+            <tr><td>id</td><td>User Defined</td><td>Names an element for use with Cascading Style Sheets.</td></tr>		
+            <tr><td>width</td><td>Numeric Value</td><td>Specifies the width of tables, images, or table cells.</td></tr>
+            <tr><td>height</td><td>Numeric Value</td><td>Specifies the height of tables, images, or table cells.</td></tr>	
+        </table>
+    </div>
+    <div title="contact" id="contact">
+        <a name="contact1"><h2 class="hname">Contact</h2></a>
+        <dl>
+            <dt>Email : </dt><dd>rbansal_be20@thapar.edu <a href="mailto:rbansal_be20@thapar.edu">Send email</a></dd>
+            <dt>Phone : </dt><dd>7309624925</dd>
+        </dl>
+    </div>
+    <div title="about" id="about">
+        <a name="about1"><h2 class="hname">About</h2></a>
+        <hr>
+        <p>Rudransh Bansal</p>
+        <hr>
+        <p>102197023</p>
+        <hr>
+        <p>This is lab assignment 1</p>
+        <hr>
+        This is my third assignment for ui ux 
+        <br>
+        Web development <sup>is the work </sup>involved in <span style="color: purple;">developing a website for the Internet (World Wide Web)</span> or an intranet (a private network)
+        <i>Web development can range from developing a simple single static page</i> of plain text to <br />
+        <br>
+        <br>
+        <br>
+        complex web applications, electronic businesses, <sub>and</sub> social network services.
+        A more<ins> comprehensive list</ins> of <b>tasks to which Web development commonly refers, may include Web engineering,</b> Web design, <del> content development,</del> client liaison, client-side/server-side scripting, Web server and network security configuration, and e-commerce development.
+    </div>
+</body>
+</html>
